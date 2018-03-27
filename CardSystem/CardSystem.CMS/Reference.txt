@@ -1,0 +1,10 @@
+﻿-- Init Identity to SQLServer
+-> Change connifg string in the webconfig file
+-> Package console and run command by the step as below
+1. Enable-Migrations
+2. Update-Database
+3.Add-Migration Init
+
+1. Using Migration http://stackoverflow.com/questions/22482339/extending-asp-net-mvc-5-identity-with-custom-tables
+2. OTP https://www.medo64.com/2015/02/one-time-passwords-in-csharp/
+http://bitoftech.net/2014/10/15/two-factor-authentication-asp-net-web-api-angularjs-google-authenticator/
